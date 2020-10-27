@@ -25,7 +25,7 @@
 	<system:String x:Key="Settings.General.RunAtBoot">Start RaiDrive bij opstarten van Windows</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Start Verkenner bij verbinding met een station</system:String>
 
-	<system:String x:Key="Notice">Mededeling</system:String>
+	<system:String x:Key="Notice">Meldingen</system:String>
 	<system:String x:Key="AddDrive">Toevoegen</system:String>
 	<system:String x:Key="AddDrive.Header">Nieuwe schijf</system:String>
 	<system:String x:Key="AddDrive.Storage">Opslaan</system:String>
@@ -35,7 +35,7 @@
 
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Netwerk</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Alleen-lezen</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Alleen lezen</system:String>
 	<system:String x:Key="AddDrive.Account">Registratie</system:String>
 	<system:String x:Key="AddDrive.Username">Gebruikersnaam</system:String>
 	<system:String x:Key="AddDrive.Password">Wachtwoord</system:String>
@@ -43,13 +43,13 @@
 	<system:String x:Key="AddDrive.Address">Adres</system:String>
 	<system:String x:Key="AddDrive.Port">Poort</system:String>
 	<system:String x:Key="AddDrive.Device">Apparaat</system:String>
-	<system:String x:Key="AddDrive.PrivateKey">Persoonlijke sleutel</system:String>
+	<system:String x:Key="AddDrive.PrivateKey">Privésleutel</system:String>
 	<system:String x:Key="AddDrive.Charset">Karakterset</system:String>
 	<system:String x:Key="AddDrive.TransferMode">Overdrachtsmodus</system:String>
 	<system:String x:Key="AddDrive.Encryption">Versleuteling</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Kies een geldige naam</system:String>
-	<system:String x:Key="Vailidation.VolumeExist">Deze letter is al gereserveerd</system:String>
+	<system:String x:Key="Vailidation.VolumeExist">Deze letter is al gebruikt</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">De naam mag niet het volgende karakter bevatten:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">De volgende namen zijn al gereserveerd en niet bruikbaar:</system:String>
 	<system:String x:Key="Vailidation.Letter">Kies een nog niet gebruikte schijfletter</system:String>
@@ -69,17 +69,17 @@
 	<system:String x:Key="Vailidation.Hint.Port">Poort</system:String>
 	<system:String x:Key="Vailidation.Hint.Path">Pad</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">mail@voorbeeld.com</system:String>
-	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Kies een persoonlijk sleutelbestand</system:String>
+	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">Kies een persoonlijke sleutel</system:String>
 
 	<system:String x:Key="Button.Yes">Ja</system:String>
 	<system:String x:Key="Button.No">Nee</system:String>
 	<system:String x:Key="Button.OK">Okee</system:String>
 	<system:String x:Key="Button.Apply">Toepassen</system:String>
-	<system:String x:Key="Button.Cancel">Afbreken</system:String>
+	<system:String x:Key="Button.Cancel">Annuleren</system:String>
 	<system:String x:Key="Button.Check">Controleren</system:String>
 	<system:String x:Key="Button.Edit">Bewerken</system:String>
 	<system:String x:Key="Button.Retry">Opnieuw proberen</system:String>
-	<system:String x:Key="Button.ReAuth">Aanmelden</system:String>
+	<system:String x:Key="Button.ReAuth">Opnieuw aanmelden</system:String>
 	<system:String x:Key="Button.Login">Aanmelden</system:String>
 	<system:String x:Key="Button.SIGNIN">AANMELDEN</system:String>
 
@@ -88,7 +88,7 @@
 	<system:String x:Key="ToolTip.Edit">Bewerken</system:String>
 	<system:String x:Key="ToolTip.Remove">Verwijderen</system:String>
 	<system:String x:Key="ToolTip.NetworkDrive">Netwerkadres</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Veiligheidsprotocol</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Beveiligsprotocol</system:String>
 	<system:String x:Key="ToolTip.SecureConnection">Beveiligde verbinding</system:String>
 	<system:String x:Key="ToolTip.Backup">Reservekopie</system:String>
 
@@ -104,21 +104,21 @@
 	<system:String x:Key="Message.SureDelete">Weet je zeker dat je &quot;{0} ({1})&quot; wil verwijderen?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">RaiDrive herstarten</system:String>
 	<system:String x:Key="Message.Title.Reconnect">RaiDrive opnieuw verbinden</system:String>
-	<system:String x:Key="Message.ServiceDown">Druk op &quot;Okee&quot; om RaiDrive wakker te schudden.</system:String>
+	<system:String x:Key="Message.ServiceDown">Druk op &quot;Okee&quot; om RaiDrive opnieuw op te starten.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Druk op &quot;Okee&quot; verbind opnieuw om de wijzigingen door te voeren.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is niet gereed. Start de PC opnieuw op.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Het stuurprogramma is niet geladen. Installeer RaiDrive opnieuw.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox ondersteunt IE10 en IE11. Installeer Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Verbonden met behulp van RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">In de huidige versie kunnen maximaal 8 diensten worden verbonden</system:String>
-	<system:String x:Key="Message.License.Expired">Je licentie is verlopen. Druk op &quot;Okee&quot; om te opwaarderen naar de nieuwste versie.</system:String>
+	<system:String x:Key="Message.License.Expired">Je licentie is verlopen. Druk op &quot;Oke&quot; om te opwaarderen naar de nieuwste versie.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive kan je licentie niet controleren.</system:String>
 	<system:String x:Key="Message.UnknownSpace">Onbekend</system:String>
 	<system:String x:Key="Message.CurrentVersion">Huidige versie: {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">De tijdelijke map moet zich op je PC bevinden.</system:String>
 
-	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorisatie of authenticatie mislukt. Wil je het nog eens proberen?</system:String>
-	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorisatie of authenticatie mislukt. Wil je het nog eens proberen? (als het weer mislukt, verwijder dan de map en voeg hem opnieuw toe.)</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveAuth">Autorisatie mislukt. Wil je het nog eens proberen?</system:String>
+	<system:String x:Key="Message.ErrorRemoteDriveWantRelogin">Autorisatie mislukt. Wil je het nog eens proberen? (als het weer mislukt, verwijder dan de map en voeg hem opnieuw toe.)</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveLimit">De opslagruimte wordt overschreden. Inlaadbeperkingen worden geregeld door {0}.</system:String>
 	<system:String x:Key="Message.ErrorRemoteDriveRemake">De verbindingsmethode om op te slaan is gewijzigd. Meld je opnieuw aan.</system:String>
 	<system:String x:Key="Message.ErrorCacheDiskFull">Het buffergeheugen is vol. Maak geheugen vrij, bv door programma's te sluiten.</system:String>
@@ -145,7 +145,7 @@
 	<!--  ConnectResponse Message  -->
 
 	<system:String x:Key="Words.Reason">Reden</system:String>
-	<system:String x:Key="Words.Delegation.Stop">Delegatie afgebroken</system:String>
+	<system:String x:Key="Words.Delegation.Stop">Overdracht afgebroken</system:String>
 	<system:String x:Key="Words.Drive">Schijf</system:String>
 	<system:String x:Key="Words.FreeSpace">Beschikbare opslag</system:String>
 	<system:String x:Key="Words.Send.Opinion">Mening verzenden</system:String>
@@ -170,7 +170,7 @@
 	<system:String x:Key="Upgrade">Opwaarderen</system:String>
 	<system:String x:Key="Upgrade.Uptodate">Je gebruikt de nieuwste versie</system:String>
 	<system:String x:Key="Upgrade.NewVersion">Je kunt opwaarderen naar versie {0}</system:String>
-	<system:String x:Key="Upgrade.New">Je kunt opwaarderen naar de nieuwste versie</system:String>
+	<system:String x:Key="Upgrade.New">Je kunt opwaarderen naar een nieuwere versie</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">RaiDrive openen</system:String>
 	<system:String x:Key="NotifyIcon.CheckUpdate">Zoek naar nieuwere versie</system:String>
@@ -240,31 +240,31 @@
 
 	<!--  from version 1.9.0  -->
 	<system:String x:Key="Words.Project">Project</system:String>
-	<system:String x:Key="Words.Bucket">Bucket</system:String>
-	<system:String x:Key="Words.Tenant">Tenant</system:String>
-	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
+	<system:String x:Key="Words.Bucket">Emmer</system:String>
+	<system:String x:Key="Words.Tenant">Huurder</system:String>
+	<system:String x:Key="Words.Subscription">Abonnement</system:String>
+	<system:String x:Key="Words.Community">Gemeenschap</system:String>
 	<system:String x:Key="Words.Document">Document</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
-	<system:String x:Key="Words.Read">Read</system:String>
-	<system:String x:Key="Words.Write">Write</system:String>
-	<system:String x:Key="Words.Second">second</system:String>
+	<system:String x:Key="Words.Lifetime">Levensduur</system:String>
+	<system:String x:Key="Words.Read">Lees</system:String>
+	<system:String x:Key="Words.Write">Schrijf</system:String>
+	<system:String x:Key="Words.Second">tweede</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Please enter Access Key ID</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Please enter Secret Access Key</system:String>
+	<system:String x:Key="Account.AccessKeyID">Toegangssleutel ID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">Geheime Toegangssleutel</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">Toegangssleutel ID invoeren</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">Geheime Toegangssleutel invoeren</system:String>
 
-	<system:String x:Key="Account.StorageAccount">Storage Account</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
-	<system:String x:Key="Vailidation.StorageAccount">Please enter Storage account name</system:String>
-	<system:String x:Key="Vailidation.StorageKey">Please enter key1 or key2</system:String>
+	<system:String x:Key="Account.StorageAccount">Opslag Account</system:String>
+	<system:String x:Key="Account.StorageKey">Sleutel</system:String>
+	<system:String x:Key="Vailidation.StorageAccount">Opslag accountnaam invoeren</system:String>
+	<system:String x:Key="Vailidation.StorageKey">Sleutel1 of sleutel2 invoeren</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">Registreren bij Opstarten</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">Opnieuw verbinden bij starten</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">Opnieuw verbinden bij opstarten</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">Verbinden bij aanmelden</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">Met andere registratie aanmelden</system:String>
 
@@ -283,4 +283,37 @@
 	<system:String x:Key="OneDrive.Shared">Gedeeld</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Gedeelde link</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Bandbreedte</system:String>
+	<system:String x:Key="Words.Download">Downloaden</system:String>
+	<system:String x:Key="Words.Upload">Uploaden</system:String>
+	<system:String x:Key="Words.Capacity">Capaciteit</system:String>
+
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">Verkenner</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Opslagwijzigingen asynchroon bijwerken</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Probeer &quot;Wijzigingsdatum&quot; te handhaven bij kopiëren</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor proces toegang to bestanden</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Snel kopiëren/verplaatsen/Verwijderen voor externe opslag</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Doel overschrijven</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Bron hernoemen</system:String>
+	<system:String x:Key="Words.Skip">Overslaan</system:String>
+	<system:String x:Key="Words.Slow">Traag</system:String>
+	<system:String x:Key="Message.ResponseSlow">Reactie kan traag zijn</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Geavanceerde Opties</system:String>
+	<system:String x:Key="Words.Properties">Eigenschappen</system:String>
+
+	<system:String x:Key="Words.MySubscription">Mijn abonnement</system:String>
+	<system:String x:Key="Words.ShareWithOther">Delen met anderen</system:String>
+	<system:String x:Key="Words.SharedWithMe">Gedeeld met mij</system:String>
+	<system:String x:Key="Words.Import">Import</system:String>
+	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Procesmonitor</system:String>
+
+	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Gedeelde schijven</system:String>
+
+	<system:String x:Key="Words.Reading">Lezen</system:String>
+	<system:String x:Key="Words.Writing">Schrijven</system:String>
+	<system:String x:Key="Words.Hide">Verbergen</system:String>
 </ResourceDictionary>

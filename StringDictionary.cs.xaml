@@ -240,9 +240,9 @@
 
 	<!--  from version 1.9.0  -->
 	<system:String x:Key="Words.Project">Projekt</system:String>
-	<system:String x:Key="Words.Bucket">Kbelík</system:String>
-	<system:String x:Key="Words.Tenant">Nájem</system:String>
-	<system:String x:Key="Words.Subscription">Odběr</system:String>
+	<system:String x:Key="Words.Bucket">Bucket</system:String>
+	<system:String x:Key="Words.Tenant">Licence</system:String>
+	<system:String x:Key="Words.Subscription">Odběr novinek</system:String>
 	<system:String x:Key="Words.Community">Komunita</system:String>
 	<system:String x:Key="Words.Document">Dokument</system:String>
 
@@ -269,13 +269,13 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">Propojit za pomoci jiných pověření</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">Cesta ke složce připojení je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">Přiřazená složka vyžaduje veřejnou složku na místním disku</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">Cesta ke složce je k dispozici pouze u prázdných složek na základních nebo dynamických svazcích NTFS.</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">Tato složka vyžaduje veřejnou složku umístěnou na místním disku</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">URL složky</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">URL složky nebo ID</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">Můj disk</system:String>
-	<system:String x:Key="GoogleDrive.SharedWithMe">sdílené se mnou</system:String>
+	<system:String x:Key="GoogleDrive.SharedWithMe">Sdíleno se mnou</system:String>
 	<system:String x:Key="GoogleDrive.Computers">Počítače</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Sdílený odkaz</system:String>
 
@@ -283,4 +283,37 @@
 	<system:String x:Key="OneDrive.Shared">Sdílené</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Sdílený odkaz</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Šířka pásma</system:String>
+	<system:String x:Key="Words.Download">Stáhnout</system:String>
+	<system:String x:Key="Words.Upload">Nahrát</system:String>
+	<system:String x:Key="Words.Capacity">Kapacita</system:String>
+
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">Průzkumník souborů</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Synchronizaci provádět ansynchronně</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Zachovat &quot;datum změny&quot; při kopírování</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitorovat pokusy o přístup k souborů</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Rychlé kopírování/přesun/mazání souborů ve vzdáleném úložišti</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Přepsat cílový soubor</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Přejmenovat zdroj</system:String>
+	<system:String x:Key="Words.Skip">Přeskočit</system:String>
+	<system:String x:Key="Words.Slow">Pomalu</system:String>
+	<system:String x:Key="Message.ResponseSlow">Odezva může být pomalejší</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Pokročilé možnosti</system:String>
+	<system:String x:Key="Words.Properties">Vlastnosti</system:String>
+
+	<system:String x:Key="Words.MySubscription">Má předplatná</system:String>
+	<system:String x:Key="Words.ShareWithOther">Sdílené</system:String>
+	<system:String x:Key="Words.SharedWithMe">Sdílenou se mnou</system:String>
+	<system:String x:Key="Words.Import">Import</system:String>
+	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Monitor procesů</system:String>
+
+	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Týmové disky</system:String>
+
+	<system:String x:Key="Words.Reading">Čtení</system:String>
+	<system:String x:Key="Words.Writing">Zápis</system:String>
+	<system:String x:Key="Words.Hide">Skrýt</system:String>
 </ResourceDictionary>

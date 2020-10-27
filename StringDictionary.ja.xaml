@@ -254,19 +254,19 @@
 	<system:String x:Key="Words.Write">書き込み</system:String>
 	<system:String x:Key="Words.Second">秒</system:String>
 
-	<system:String x:Key="Account.AccessKeyID">Access Key ID</system:String>
-	<system:String x:Key="Account.SecretAccessKey">Secret Access Key</system:String>
-	<system:String x:Key="Vailidation.AccessKeyID">Access Key IDを入力</system:String>
-	<system:String x:Key="Vailidation.SecretAccessKey">Secret Access Keyを入力</system:String>
+	<system:String x:Key="Account.AccessKeyID">アクセスキーID</system:String>
+	<system:String x:Key="Account.SecretAccessKey">シークレットアクセスキー</system:String>
+	<system:String x:Key="Vailidation.AccessKeyID">アクセスキーIDを入力</system:String>
+	<system:String x:Key="Vailidation.SecretAccessKey">シークレットアクセスキーを入力</system:String>
 
 	<system:String x:Key="Account.StorageAccount">ストレージアカウント</system:String>
-	<system:String x:Key="Account.StorageKey">Key</system:String>
+	<system:String x:Key="Account.StorageKey">キー</system:String>
 	<system:String x:Key="Vailidation.StorageAccount">ストレージアカウント名を入力</system:String>
 	<system:String x:Key="Vailidation.StorageKey">key1またはkey2を入力</system:String>
 
-	<system:String x:Key="Settings.RegisterToStartup">Register to Startup</system:String>
-	<system:String x:Key="AddDrive.MountAtStart">Reconnect at program start</system:String>
-	<system:String x:Key="AddDrive.MountAtBoot">Reconnect at boot</system:String>
+	<system:String x:Key="Settings.RegisterToStartup">スタートアップへ登録</system:String>
+	<system:String x:Key="AddDrive.MountAtStart">プログラムの起動時に再接続</system:String>
+	<system:String x:Key="AddDrive.MountAtBoot">再起動時に再接続</system:String>
 	<system:String x:Key="AddDrive.MountAtSignIn">プログラムの起動時にドライブをマウント</system:String>
 	<system:String x:Key="AddDrive.AuthAtConnect">ドライブをマウントする度にログイン</system:String>
 
@@ -285,4 +285,37 @@
 	<system:String x:Key="OneDrive.Shared">共有</system:String>
 	<system:String x:Key="OneDrive.SharedLink">共有リンク</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">帯域幅</system:String>
+	<system:String x:Key="Words.Download">ダウンロード</system:String>
+	<system:String x:Key="Words.Upload">アップロード</system:String>
+	<system:String x:Key="Words.Capacity">容量</system:String>
+
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">File Explorer</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Update storage changes asynchronously</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Try to keep &quot;Date modified&quot; when copying</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitor process access to files</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Quick Copy/Move/Delete for remote storage</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Overwrite target</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Rename source</system:String>
+	<system:String x:Key="Words.Skip">Skip</system:String>
+	<system:String x:Key="Words.Slow">Slow</system:String>
+	<system:String x:Key="Message.ResponseSlow">A response may be slow</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Advanced Options</system:String>
+	<system:String x:Key="Words.Properties">Properties</system:String>
+
+	<system:String x:Key="Words.MySubscription">My Subscription</system:String>
+	<system:String x:Key="Words.ShareWithOther">Share with others</system:String>
+	<system:String x:Key="Words.SharedWithMe">Shared with me</system:String>
+	<system:String x:Key="Words.Import">Import</system:String>
+	<system:String x:Key="Words.Export">Export</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Process Monitor</system:String>
+
+	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Shared drives</system:String>
+
+	<system:String x:Key="Words.Reading">Reading</system:String>
+	<system:String x:Key="Words.Writing">Writing</system:String>
+	<system:String x:Key="Words.Hide">Hide</system:String>
 </ResourceDictionary>

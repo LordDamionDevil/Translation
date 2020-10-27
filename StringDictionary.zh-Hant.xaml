@@ -271,10 +271,10 @@
 	<system:String x:Key="AddDrive.AuthAtConnect">使用不同的憑證連線</system:String>
 
 	<!--  from 2020.2.2  -->
-	<system:String x:Key="Message.MountPointFolder.Condition">掛載點文件夾路徑僅在基本或動態NTFS卷上的空文件夾上可用。</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">要分配文件夾，需要“本地磁盤”公用選項</system:String>
+	<system:String x:Key="Message.MountPointFolder.Condition">掛載點資料夾路徑僅在基本或動態 NTFS 磁碟區上的空資料夾上可用。</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">要分配資料夾，需要「本機磁碟」公用選項</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">資料夾網址</system:String>
-	<system:String x:Key="Validation.Hint.FolderUrlID">文件夾URL或ID</system:String>
+	<system:String x:Key="Validation.Hint.FolderUrlID">資料夾網址或ID</system:String>
 
 	<system:String x:Key="GoogleDrive.MyDrive">我的雲端硬碟</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">與我共用</system:String>
@@ -285,4 +285,37 @@
 	<system:String x:Key="OneDrive.Shared">已共用</system:String>
 	<system:String x:Key="OneDrive.SharedLink">共用連結</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">頻寬</system:String>
+	<system:String x:Key="Words.Download">下載</system:String>
+	<system:String x:Key="Words.Upload">上傳</system:String>
+	<system:String x:Key="Words.Capacity">容量</system:String>
+
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">檔案瀏覽器</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">儲存變更非同步更新</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">複製時嘗試保留原&quot;修改日期&quot;</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">監視處理程序對檔案的存取</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">啟用遠端儲存體快速複製/移動/刪除</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">覆寫目的檔案</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">重新命名來源檔案</system:String>
+	<system:String x:Key="Words.Skip">略過</system:String>
+	<system:String x:Key="Words.Slow">較慢</system:String>
+	<system:String x:Key="Message.ResponseSlow">回應可能很慢</system:String>
+	<system:String x:Key="Words.AdvancedOptions">進階選項</system:String>
+	<system:String x:Key="Words.Properties">屬性</system:String>
+
+	<system:String x:Key="Words.MySubscription">我的訂閱</system:String>
+	<system:String x:Key="Words.ShareWithOther">與他人共用</system:String>
+	<system:String x:Key="Words.SharedWithMe">與我共用</system:String>
+	<system:String x:Key="Words.Import">匯入</system:String>
+	<system:String x:Key="Words.Export">匯出</system:String>
+	<system:String x:Key="Words.ProcessMonitor">處理程序監視器</system:String>
+
+	<system:String x:Key="Account.Endpoint">端點</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">共用磁碟機</system:String>
+
+	<system:String x:Key="Words.Reading">讀取中</system:String>
+	<system:String x:Key="Words.Writing">寫入中</system:String>
+	<system:String x:Key="Words.Hide">隱藏</system:String>
 </ResourceDictionary>

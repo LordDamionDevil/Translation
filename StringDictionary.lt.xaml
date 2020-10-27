@@ -5,47 +5,47 @@
 	xmlns:system="clr-namespace:System;assembly=mscorlib">
 
 	<x:Array x:Key="Contributors" Type="system:String">
-		<system:String>RaiDrive</system:String>
+		<system:String>Darius Ribinskas</system:String>
 	</x:Array>
-	<system:String x:Key="Current.Language">en</system:String>
+	<system:String x:Key="Current.Language">lt</system:String>
 
 	<!--  Settings, General  -->
-	<system:String x:Key="Settings">Settings</system:String>
-	<system:String x:Key="Settings.Header">Settings</system:String>
+	<system:String x:Key="Settings">Nustatymai</system:String>
+	<system:String x:Key="Settings.Header">Nustatymai</system:String>
 	<system:String x:Key="Settings.General">General</system:String>
-	<system:String x:Key="Settings.Language">Language</system:String>
-	<system:String x:Key="Settings.Update">Update</system:String>
+	<system:String x:Key="Settings.Language">Kalba</system:String>
+	<system:String x:Key="Settings.Update">Atnaujinimas</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
 	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Temporary</system:String>
-	<system:String x:Key="Settings.Default">Default</system:String>
-	<system:String x:Key="Settings.License">License</system:String>
+	<system:String x:Key="Settings.Default">Numatytasis</system:String>
+	<system:String x:Key="Settings.License">Licensija</system:String>
 	<system:String x:Key="Settings.Proxy">Proxy</system:String>
 
-	<system:String x:Key="Settings.General.RunAtBoot">Run a program automatically when Windows starts</system:String>
+	<system:String x:Key="Settings.General.RunAtBoot">Paleisti automatiškai programą su kompiuterio užkrovimu</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Run File Explorer when the drive is connected</system:String>
 
 	<system:String x:Key="Notice">Notice</system:String>
-	<system:String x:Key="AddDrive">Add</system:String>
-	<system:String x:Key="AddDrive.Header">New Drive</system:String>
-	<system:String x:Key="AddDrive.Storage">Storage</system:String>
+	<system:String x:Key="AddDrive">Pridėti</system:String>
+	<system:String x:Key="AddDrive.Header">Naujas diskas</system:String>
+	<system:String x:Key="AddDrive.Storage">Saugykla</system:String>
 
 	<!--  Drive  -->
-	<system:String x:Key="AddDrive.Drive">Drive</system:String>
+	<system:String x:Key="AddDrive.Drive">Diskas</system:String>
 
 	<!--  Add New Storage  -->
-	<system:String x:Key="AddDrive.Network">Network</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Read-only</system:String>
-	<system:String x:Key="AddDrive.Account">Account</system:String>
-	<system:String x:Key="AddDrive.Username">Username</system:String>
-	<system:String x:Key="AddDrive.Password">Password</system:String>
-	<system:String x:Key="AddDrive.Anonymous">Anonymous</system:String>
-	<system:String x:Key="AddDrive.Address">Address</system:String>
-	<system:String x:Key="AddDrive.Port">Port</system:String>
-	<system:String x:Key="AddDrive.Device">Device</system:String>
+	<system:String x:Key="AddDrive.Network">Tinklas</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Tik skaitymui</system:String>
+	<system:String x:Key="AddDrive.Account">Profilis</system:String>
+	<system:String x:Key="AddDrive.Username">Slapyvardis</system:String>
+	<system:String x:Key="AddDrive.Password">Slaptažodis</system:String>
+	<system:String x:Key="AddDrive.Anonymous">Anonimas</system:String>
+	<system:String x:Key="AddDrive.Address">Adresas</system:String>
+	<system:String x:Key="AddDrive.Port">Portas</system:String>
+	<system:String x:Key="AddDrive.Device">Prietaisas</system:String>
 	<system:String x:Key="AddDrive.PrivateKey">Private Key</system:String>
-	<system:String x:Key="AddDrive.Charset">Charset</system:String>
-	<system:String x:Key="AddDrive.TransferMode">Transfer Mode</system:String>
+	<system:String x:Key="AddDrive.Charset">Koduotė</system:String>
+	<system:String x:Key="AddDrive.TransferMode">Perdavimo būdas</system:String>
 	<system:String x:Key="AddDrive.Encryption">Encryption</system:String>
 
 	<system:String x:Key="Vailidation.Volume">Please enter a valid volume label</system:String>
@@ -63,37 +63,37 @@
 	<!--  Menu bar>Settings, account, volume  -->
 	<system:String x:Key="Vailidation.Hint.Volume">volume label</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
-	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">folder</system:String>
-	<system:String x:Key="Vailidation.Hint.Username">username</system:String>
-	<system:String x:Key="Vailidation.Hint.Password">password</system:String>
-	<system:String x:Key="Vailidation.Hint.Port">port</system:String>
-	<system:String x:Key="Vailidation.Hint.Path">path</system:String>
+	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">katalogas</system:String>
+	<system:String x:Key="Vailidation.Hint.Username">slapyvardis</system:String>
+	<system:String x:Key="Vailidation.Hint.Password">slaptažodis</system:String>
+	<system:String x:Key="Vailidation.Hint.Port">portas</system:String>
+	<system:String x:Key="Vailidation.Hint.Path">kelias</system:String>
 	<system:String x:Key="Vailidation.Hint.Email">id@example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.PrivateKeyPath">you may select private key file</system:String>
 
-	<system:String x:Key="Button.Yes">Yes</system:String>
-	<system:String x:Key="Button.No">No</system:String>
+	<system:String x:Key="Button.Yes">Taip</system:String>
+	<system:String x:Key="Button.No">Ne</system:String>
 	<system:String x:Key="Button.OK">OK</system:String>
-	<system:String x:Key="Button.Apply">Apply</system:String>
-	<system:String x:Key="Button.Cancel">Cancel</system:String>
-	<system:String x:Key="Button.Check">Check</system:String>
-	<system:String x:Key="Button.Edit">Edit</system:String>
-	<system:String x:Key="Button.Retry">Retry</system:String>
-	<system:String x:Key="Button.ReAuth">Sign in</system:String>
-	<system:String x:Key="Button.Login">Login</system:String>
-	<system:String x:Key="Button.SIGNIN">SIGIN-IN</system:String>
+	<system:String x:Key="Button.Apply">Taikyti</system:String>
+	<system:String x:Key="Button.Cancel">Atšaukti</system:String>
+	<system:String x:Key="Button.Check">Patikrinti</system:String>
+	<system:String x:Key="Button.Edit">Koreguoti</system:String>
+	<system:String x:Key="Button.Retry">Iš naujo</system:String>
+	<system:String x:Key="Button.ReAuth">Prisijungti</system:String>
+	<system:String x:Key="Button.Login">Prisijungimas</system:String>
+	<system:String x:Key="Button.SIGNIN">PRISIJUNGIMAS</system:String>
 
-	<system:String x:Key="ToolTip.Connect">Connect</system:String>
-	<system:String x:Key="ToolTip.Disconnect">Disconnect</system:String>
-	<system:String x:Key="ToolTip.Edit">Edit</system:String>
-	<system:String x:Key="ToolTip.Remove">Remove</system:String>
+	<system:String x:Key="ToolTip.Connect">Prisijungti</system:String>
+	<system:String x:Key="ToolTip.Disconnect">Atsijungti</system:String>
+	<system:String x:Key="ToolTip.Edit">Koreguoti</system:String>
+	<system:String x:Key="ToolTip.Remove">Šalinti</system:String>
 	<system:String x:Key="ToolTip.NetworkDrive">Network Drive</system:String>
-	<system:String x:Key="ToolTip.SecureProtocol">Secure Protocol</system:String>
-	<system:String x:Key="ToolTip.SecureConnection">Secure Connection</system:String>
-	<system:String x:Key="ToolTip.Backup">Backup</system:String>
+	<system:String x:Key="ToolTip.SecureProtocol">Saugus protolkolas</system:String>
+	<system:String x:Key="ToolTip.SecureConnection">Saugus prisijungimas</system:String>
+	<system:String x:Key="ToolTip.Backup">Atsarginė kopija</system:String>
 
-	<system:String x:Key="Message.Title.SelectFolder">Select folder</system:String>
-	<system:String x:Key="Message.Title.DeleteDrive">Delete drive</system:String>
+	<system:String x:Key="Message.Title.SelectFolder">Pasirinkti katalogą</system:String>
+	<system:String x:Key="Message.Title.DeleteDrive">Ištrinti diską</system:String>
 
 	<system:String x:Key="Message.NotSupportNetworkDrive">RaiDrive does not support a network drive.</system:String>
 	<system:String x:Key="Message.NotSupportRaiDrive">RaiDrive does not support a drive to connect by itself.</system:String>
@@ -270,7 +270,7 @@
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">Mount point folder paths are available only on empty folders on basic or dynamic NTFS volumes.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">The Public option of Local Disk is required to mount to folder</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">To assign a folder, the Local Disk public option is required</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">folder URL</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">folder URL or ID</system:String>
 
@@ -279,7 +279,7 @@
 	<system:String x:Key="GoogleDrive.Computers">Computers</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Shared Link</system:String>
 
-	<system:String x:Key="OneDrive.Files">My files</system:String>
+	<system:String x:Key="OneDrive.Files">Files</system:String>
 	<system:String x:Key="OneDrive.Shared">Shared</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Shared Link</system:String>
 

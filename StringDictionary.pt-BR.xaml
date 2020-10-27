@@ -283,4 +283,37 @@
 	<system:String x:Key="OneDrive.Shared">Compartilhado</system:String>
 	<system:String x:Key="OneDrive.SharedLink">Link compartilhado</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">Largura de banda</system:String>
+	<system:String x:Key="Words.Download">Download</system:String>
+	<system:String x:Key="Words.Upload">Upload</system:String>
+	<system:String x:Key="Words.Capacity">Capacidade</system:String>
+
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">Explorer</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">Atualizar a mudanças de forma assíncrona</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">Tentar manter a &quot;Data de modificação&quot; quando copiar</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">Monitorar o acesso aos arquivos</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">Copiar/Mover/Deletar rapidamente no armazenamento remoto</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">Sobreescrever destino</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">Renomear origem</system:String>
+	<system:String x:Key="Words.Skip">Ignorar</system:String>
+	<system:String x:Key="Words.Slow">Lento</system:String>
+	<system:String x:Key="Message.ResponseSlow">A resposta pode ser lenta</system:String>
+	<system:String x:Key="Words.AdvancedOptions">Opções avançadas</system:String>
+	<system:String x:Key="Words.Properties">Propriedades</system:String>
+
+	<system:String x:Key="Words.MySubscription">Minha Assinatura</system:String>
+	<system:String x:Key="Words.ShareWithOther">Compartilhe com alguém</system:String>
+	<system:String x:Key="Words.SharedWithMe">Compartilhado comigo</system:String>
+	<system:String x:Key="Words.Import">Importar</system:String>
+	<system:String x:Key="Words.Export">Exportar</system:String>
+	<system:String x:Key="Words.ProcessMonitor">Monitor de Processo</system:String>
+
+	<system:String x:Key="Account.Endpoint">Endpoint</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">Drives compartilhados</system:String>
+
+	<system:String x:Key="Words.Reading">Leitura</system:String>
+	<system:String x:Key="Words.Writing">Gravação</system:String>
+	<system:String x:Key="Words.Hide">Ocultar</system:String>
 </ResourceDictionary>

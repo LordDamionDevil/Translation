@@ -270,7 +270,7 @@
 
 	<!--  from 2020.2.2  -->
 	<system:String x:Key="Message.MountPointFolder.Condition">탑재 지점 폴더 경로는 기본 또는 동적 NTFS 볼륨의 빈 폴더만 가능합니다.</system:String>
-	<system:String x:Key="Message.MountPointFolder.Mandatory">폴더를 드라이브에 할당하려면 로컬 디스크의 공개 옵션이 필수조건입니다</system:String>
+	<system:String x:Key="Message.MountPointFolder.Mandatory">폴더에 마운트하려면 로컬 디스크의 공개 옵션이 필수조건입니다</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrl">폴더 URL</system:String>
 	<system:String x:Key="Validation.Hint.FolderUrlID">폴더 URL 또는 ID</system:String>
 
@@ -279,8 +279,41 @@
 	<system:String x:Key="GoogleDrive.Computers">컴퓨터</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">공유링크</system:String>
 
-	<system:String x:Key="OneDrive.Files">파일</system:String>
+	<system:String x:Key="OneDrive.Files">내 파일</system:String>
 	<system:String x:Key="OneDrive.Shared">공유됨</system:String>
 	<system:String x:Key="OneDrive.SharedLink">공유링크</system:String>
 
+	<!--  from 2020.6  -->
+	<system:String x:Key="Words.Bandwidth">대역폭</system:String>
+	<system:String x:Key="Words.Download">다운로드</system:String>
+	<system:String x:Key="Words.Upload">업로드</system:String>
+	<system:String x:Key="Words.Capacity">총량</system:String>
+
+	<!--  from 2020.9  -->
+	<system:String x:Key="Words.FileExplorer">파일 탐색기</system:String>
+	<system:String x:Key="FileExplorer.UpdateChangeAsync">스토리지 변경사항을 비동기적으로 갱신</system:String>
+	<system:String x:Key="FileExplorer.KeepModifiedDate">파일 복사할 때, 수정한 날짜 유지시도</system:String>
+	<system:String x:Key="FileExplorer.FilesystemWatcher">파일에 접근하는 프로세스 관찰</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension">스토리지에서 빠른 복사/이동/삭제</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Overwrite">덮어쓰기</system:String>
+	<system:String x:Key="FileExplorer.PerformanceExtension.Rename">이름변경</system:String>
+	<system:String x:Key="Words.Skip">건너뛰기</system:String>
+	<system:String x:Key="Words.Slow">느려림</system:String>
+	<system:String x:Key="Message.ResponseSlow">반응이 느려질 수 있습니다</system:String>
+	<system:String x:Key="Words.AdvancedOptions">고급 옵션</system:String>
+	<system:String x:Key="Words.Properties">속성</system:String>
+
+	<system:String x:Key="Words.MySubscription">나의 구독</system:String>
+	<system:String x:Key="Words.ShareWithOther">구독 공유</system:String>
+	<system:String x:Key="Words.SharedWithMe">공유된 구독</system:String>
+	<system:String x:Key="Words.Import">가져오기</system:String>
+	<system:String x:Key="Words.Export">내보내기</system:String>
+	<system:String x:Key="Words.ProcessMonitor">프로세스 모니터</system:String>
+
+	<system:String x:Key="Account.Endpoint">엔드포인트</system:String>
+	<system:String x:Key="GoogleDrive.SharedDrives">공유 드라이브</system:String>
+
+	<system:String x:Key="Words.Reading">읽는중</system:String>
+	<system:String x:Key="Words.Writing">쓰는중</system:String>
+	<system:String x:Key="Words.Hide">숨기기</system:String>
 </ResourceDictionary>
